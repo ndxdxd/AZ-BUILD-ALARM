@@ -1,0 +1,14 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Horizontally centers the cards */
+    gap: 20px; /* Adds space between cards */
+    align-items: center; /* Vertically centers the cards */
+  }
+  
+  .card {
+    flex: 1 0 300px; /* Adjust width if needed */
+   
+    max-width: 300px;
+    height: 100%; /* Fill the height of the container */
+  }

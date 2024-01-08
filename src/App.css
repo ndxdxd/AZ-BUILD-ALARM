@@ -1,0 +1,33 @@
+
+
+/*Start of changes for the webpage */
+
+.bg-myGray{
+  background-color: rgb(110, 1, 1);
+
+}
+
+html {
+  min-height: 100%;
+  background-color: var(--bg-color);
+}
+
+html, body {
+  min-height: 100%;
+}
+
+.light-mode {
+  min-height: 100%;
+  --text-color: #333333;
+  --bg-color: #e6e6e8;
+  --box-color: white;
+  background-color: var(--bg-color);
+}
+
+.dark-mode {
+  min-height: 100%;
+  --text-color: #c4c4c4;
+  --bg-color: #1f1f1f;
+  --box-color: #242424;
+  background-color: var(--bg-color);
+}
